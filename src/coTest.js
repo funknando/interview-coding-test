@@ -44,6 +44,11 @@ class CarInsurance {
             if (this.products[i].price > 0) {
               if (this.products[i].name != 'Mega Coverage') {
                 this.products[i].price = this.products[i].price - 1;
+                 //Fr Inicio//
+                if (this.products[i].name != 'Super Sale') {
+                 this.products[i].price = this.products[i].price - 1; 
+                } 
+                //Fr Fin//
               }
             }
           } else {
